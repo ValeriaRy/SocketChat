@@ -1,1 +1,1 @@
-http://valeriary.github.io/SocketChat/client/
+https://chat-valeriary.c9users.io/
