@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <title>Chat</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    <div class="title"><p>Anonymous Chat</p></div>
+    <div class="dataDay"><p id="dataDay"></p></div>
+    <div id ="chat" class="messages"></div>
+    <div id="future"></div>
+    <form id="form" class="userMessage">
+      <input id="chat_input" type="text" class="inputText" placeholder="Message">
+      <input type="submit" value="Send" class="button">
+    </form>
+    
+    <p id="see"></p>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/message.js"></script>
+  </body>
+</html>
